@@ -54,6 +54,16 @@
 			path = AspenUITests;
 			sourceTree = "<group>";
 		};
+		E5B471B32D1869E5002AB324 /* Common */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E5B471B72D186BFC002AB324 /* Localisation */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Localisation;
+			sourceTree = "<group>";
+		};
 		E5F5BAD62D0F4614008CF1DE /* Device Library */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Device Library";
@@ -89,6 +99,8 @@
 		E5804E2B2D0DF77B008E8741 = {
 			isa = PBXGroup;
 			children = (
+				E5B471B72D186BFC002AB324 /* Localisation */,
+				E5B471B32D1869E5002AB324 /* Common */,
 				E5D7C8A82D0E0177006042C3 /* .gitignore */,
 				E5D7C8A42D0E0144006042C3 /* LICENSE */,
 				E5D7C8A52D0E0144006042C3 /* README.md */,
@@ -127,6 +139,8 @@
 			);
 			fileSystemSynchronizedGroups = (
 				E5804E362D0DF77B008E8741 /* Aspen */,
+				E5B471B32D1869E5002AB324 /* Common */,
+				E5B471B72D186BFC002AB324 /* Localisation */,
 				E5F5BAD62D0F4614008CF1DE /* Device Library */,
 			);
 			name = Aspen;
