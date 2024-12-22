@@ -54,6 +54,11 @@
 			path = AspenUITests;
 			sourceTree = "<group>";
 		};
+		E5F5BAD62D0F4614008CF1DE /* Device Library */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Device Library";
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +96,7 @@
 				E5804E4A2D0DF77C008E8741 /* AspenTests */,
 				E5804E542D0DF77C008E8741 /* AspenUITests */,
 				E5804E352D0DF77B008E8741 /* Products */,
+				E5F5BAD62D0F4614008CF1DE /* Device Library */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +127,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				E5804E362D0DF77B008E8741 /* Aspen */,
+				E5F5BAD62D0F4614008CF1DE /* Device Library */,
 			);
 			name = Aspen;
 			packageProductDependencies = (
